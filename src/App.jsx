@@ -1,8 +1,12 @@
+import Nav from "./components/Nav/Nav"
+import Routing from "./utils/Routing"
+
 function App() {
   return (
-    <div className='App'>
-      <h1>Welcome to next Page!</h1>
-    </div>
+    <>
+      <Nav />
+      <Routing />
+    </>
   )
 }
 
